@@ -31,3 +31,30 @@ Usage:
 ```bash
 python "HTTP Header Analysis.py"
 
+🔐 Password Cracker
+
+A simple brute-force password cracker written in Python. It attempts to crack a given hash by comparing it against a list of potential passwords (wordlist) using a specified hashing algorithm.
+
+ 🚀 Features
+
+- Supports multiple hash algorithms (`sha256`, `md5`, `sha1`, etc.)
+- Reads from a customizable wordlist file
+- Displays progress every 1000 attempts
+- Fast and lightweight command-line tool
+
+ 🧠 How It Works
+
+The script takes in a hash, reads a wordlist line by line, hashes each word using the chosen algorithm, and compares it to the target hash. If a match is found, the password is revealed.
+
+ 📦 Requirements
+
+- Python 3.x
+
+No external libraries required — only built-in modules (`hashlib`, `os`, `sys`).
+
+ 🛠️ Usage
+
+```bash
+python PASSWORD\ CRACKER.py <target_hash> <wordlist_path> [hash_algorithm]
+
+
