@@ -1,60 +1,38 @@
- Web Security Testing Toolkit 🛡️
+# Hello, I'm Adu Joy Atakora 👋
 
-This repository contains a collection of simple yet effective Python tools for analyzing and testing web applications for common vulnerabilities:
+## Frontend Developer
 
-- ✅ HTTP Header Security Analysis
-- 🧪 XSS (Cross-Site Scripting) Detection
-- 🕵️ SQL Injection Detection
+I specialize in crafting captivating and user-centric web experiences with a passion for bringing designs to life through code. With one year of professional experience, I'm constantly growing and refining my skills in the ever-evolving world of frontend development.
 
-Each tool is standalone, command-line-based, and written in Python.
+### 💻 What I Do
 
----
+I transform concepts into reality by building visually stunning and highly interactive web applications that users love. My approach combines technical expertise with an eye for design to create seamless digital experiences.
 
- 🔍 Projects Overview
+### 🛠️ Tech Stack
 
- 1. HTTP Header Analysis
+```javascript
+const myTechStack = {
+  languages: ['JavaScript', 'HTML', 'CSS'],
+  frameworks: ['React.js'],
+  styling: ['Tailwind CSS', 'CSS-in-JS'],
+  stateManagement: ['Redux'],
+  tools: ['Git','npm','vite'],
+  currentlyLearning: ['nodejs','express','mongodb']
+};
+```
 
-File: `HTTP Header Analysis.py`
+### 🚀 What Sets Me Apart
 
-Checks the security posture of a website by scanning for important HTTP response headers.
+- **Attention to Detail**: Pixel-perfect implementation of designs
+- **User-Focused**: Creating intuitive interfaces that enhance user experience
+- **Problem Solver**: Finding elegant solutions to complex frontend challenges
+- **Continuous Learner**: Always exploring new technologies and techniques
 
-Features:
-- Detects presence and correctness of:
-  - `X-XSS-Protection`
-  - `X-Content-Type-Options`
-  - `X-Frame-Options`
-  - `Strict-Transport-Security`
-  - `Content-Security-Policy`
-- Scans cookies for `Secure` and `HttpOnly` attributes.
+### 📫 Let's Connect
 
-Usage:
-```bash
-python "HTTP Header Analysis.py"
+I'm currently available for freelance opportunities and collaboration on exciting projects! Feel free to reach out through:
 
-🔐 Password Cracker
-
-A simple brute-force password cracker written in Python. It attempts to crack a given hash by comparing it against a list of potential passwords (wordlist) using a specified hashing algorithm.
-
- 🚀 Features
-
-- Supports multiple hash algorithms (`sha256`, `md5`, `sha1`, etc.)
-- Reads from a customizable wordlist file
-- Displays progress every 1000 attempts
-- Fast and lightweight command-line tool
-
- 🧠 How It Works
-
-The script takes in a hash, reads a wordlist line by line, hashes each word using the chosen algorithm, and compares it to the target hash. If a match is found, the password is revealed.
-
- 📦 Requirements
-
-- Python 3.x
-
-No external libraries required — only built-in modules (`hashlib`, `os`, `sys`).
-
- 🛠️ Usage
-
-```bash
-python PASSWORD\ CRACKER.py <target_hash> <wordlist_path> [hash_algorithm]
-
-
+- **Email**: [adujoy05@gmail.com](mailto:adujoy05@gmail.com)
+- **LinkedIn**: [[linkedin.com/in/yourprofile](https://www.linkedin.com/in/joy-adu989/)]Add commentMore actions
+- **LinkedIn**: [[linkedin.com/in/joy-adu989/](https://www.linkedin.com/in/joy-adu989/)]
+- **Portfolio**: [https://portfolio-website989.vercel.app](https://portfolio-website989.vercel.app/)
