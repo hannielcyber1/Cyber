@@ -43,20 +43,20 @@ python "HTTP Header Analysis.py"
 
 Response Headers:
 
-X-Frame-Options : SAMEORIGIN
-X-Content-Type-Options : nosniff
+- X-Frame-Options : SAMEORIGIN
+- X-Content-Type-Options : nosniff
 
 Running Header Security Checks:
 
-[+] X-XSS-Protection : pass
-[+] X-Content-Type-Options : pass
-[+] X-Frame-Options : pass
-[-] Strict-Transport-Security header not present : fail!
-[-] Content-Security-Policy header not present : fail!
+- [+] X-XSS-Protection : pass
+- [+] X-Content-Type-Options : pass
+- [+] X-Frame-Options : pass
+- [-] Strict-Transport-Security header not present : fail!
+- [-] Content-Security-Policy header not present : fail!
 
 Set-Cookie Checks:
 - sessionid=123456
-[+] Secure : pass
-[+] HttpOnly : pass
+- [+] Secure : pass
+- [+] HttpOnly : pass
 
 
