@@ -1,49 +1,58 @@
-Hello I'm Hanniel Nene Djanma Nyemitei
-
-👨‍💻 Cybersecurity Analyst | Threat Hunter | Blue Team Specialist
-
-
-Welcome to my GitHub! 
-I'm a passionate and detail-oriented Cybersecurity Analyst focused on protecting systems, networks, and data from digital attacks. 
-I specialize in threat detection, incident response, and vulnerability management.
-
-Whether it's analyzing logs, building SIEM dashboards, or simulating attacks in a lab environment—I'm all about keeping systems secure.
-
-🧠 About Me
-
-- 🎓 Background in Telecmmunications Engineering, Information Security, Data Science and Network Administration
-- 🔍 Skilled in Security Monitoring, Incident Response, and Threat Intelligence
-- 💡 Enthusiastic about ethical hacking, malware analysis, and digital forensics
-- ⚙️ Constantly exploring tools like Splunk, Wireshark, Zeek, and ELK Stack
-- 🔒 Committed to learning, sharing, and contributing to the infosec community
-
-  🛠️ Technical Skills
-
- 🖥️ Security Tools
-- SIEM: Splunk, ELK, Graylog, QRadar
-- EDR: CrowdStrike, SentinelOne
-- Scanning: Legion, Nmap
-- Forensics: Autopsy, Binwalk, Hashdeep
-- Packet Analysis: Wireshark
-- Scripting: Bash, Python, PowerShell
-  
-  🔐 Core Expertise
-- Network Security Monitoring (NSM)
-- Threat Hunting & IOC Analysis
-- Malware Behavior Analysis
-- Wep Application Analysis
-- Vulnerability Assessment
-- Incident Response Playbooks
+1. HTTP Header Analysis
+This project is a Python script that performs a basic security analysis of HTTP response headers for a given URL. 
+It checks for the presence and correct configuration of several essential HTTP security headers to help improve the security posture of web applications.
 
 
+🔍 Features
+
+✅ Scans target URLs for important HTTP response headers.
+
+🔒 Highlights missing or improperly configured headers that can expose your web application to attacks.
+- Checks for the following security headers:
+  - `X-XSS-Protection`
+  - `X-Content-Type-Options`
+  - `X-Frame-Options`
+  - `Strict-Transport-Security`
+  - `Content-Security-Policy`
+
+🍪 Analyzes cookie attributes like Secure and HttpOnly.
+
+📦 Requirements
+
+- Python 3.x
+- `requests` library
+
+Install the required package using pip:
+
+``'bash
+pip install requests
+ 
+🚀 Usage
+i. Open the script HTTP Header Analysis.py.
+
+ii. Modify the URL inside the main block to the desired target:
+if __name__ == "__main__":
+    target = ScanHeaders("http://your-target-url.com")
+
+iii. Run the script:
+python "HTTP Header Analysis.py"
+
+🖥️ Sample Output
+X-XSS-Protection : 1; mode=block
+X-Content-Type-Options : nosniff
+X-Frame-Options : SAMEORIGIN
+Strict-Transport-Security : max-age=31536000; includeSubDomains
+Content-Security-Policy : default-src 'self'
+
+[+] X-XSS-Protection : pass
+[+] X-Content-Type-Options : pass
+[+] X-Frame-Options : pass
+[+] Strict-Transport-Security : pass
+[+] Content-Security-Policy : pass
+
+Set-Cookie:
+[+] Secure : pass
+[+] HttpOnly : pass
 
 
 
-📫 Connect with Me
-
-- 🧑‍💼 [LinkedIn](www.linkedin.com/in/hanniel-nyemitei-b62266364)
-- 📧 Email: hannielcurry@gmail.com
-
-
-
-“Security is not a product, but a process.” — Bruce Schneier
