@@ -31,28 +31,32 @@ pip install requests
 i. Open the script HTTP Header Analysis.py.
 
 ii. Modify the URL inside the main block to the desired target:
-if __name__ == "__main__":
-    target = ScanHeaders("http://your-target-url.com")
+
+
+url = "http://localhost:8000/setup.php"
 
 iii. Run the script:
 python "HTTP Header Analysis.py"
 
 🖥️ Sample Output
-X-XSS-Protection : 1; mode=block
-X-Content-Type-Options : nosniff
+
+
+Response Headers:
+
 X-Frame-Options : SAMEORIGIN
-Strict-Transport-Security : max-age=31536000; includeSubDomains
-Content-Security-Policy : default-src 'self'
+X-Content-Type-Options : nosniff
+
+Running Header Security Checks:
 
 [+] X-XSS-Protection : pass
 [+] X-Content-Type-Options : pass
 [+] X-Frame-Options : pass
-[+] Strict-Transport-Security : pass
-[+] Content-Security-Policy : pass
+[-] Strict-Transport-Security header not present : fail!
+[-] Content-Security-Policy header not present : fail!
 
-Set-Cookie:
+Set-Cookie Checks:
+- sessionid=123456
 [+] Secure : pass
 [+] HttpOnly : pass
-
 
 
