@@ -1,49 +1,25 @@
-Hello I'm Hanniel Nene Djanma Nyemitei
+ HTTP Header Analysis
 
-👨‍💻 Cybersecurity Analyst | Threat Hunter | Blue Team Specialist
+A simple Python script that performs basic security analysis on HTTP response headers for a given URL. It checks for the presence and correct configuration of several essential HTTP security headers to help improve the security posture of web applications.
 
+ 🔍 Features
 
-Welcome to my GitHub! 
-I'm a passionate and detail-oriented Cybersecurity Analyst focused on protecting systems, networks, and data from digital attacks. 
-I specialize in threat detection, incident response, and vulnerability management.
+- Checks for the following security headers:
+  - `X-XSS-Protection`
+  - `X-Content-Type-Options`
+  - `X-Frame-Options`
+  - `Strict-Transport-Security`
+  - `Content-Security-Policy`
+- Analyzes `Set-Cookie` attributes for:
+  - `Secure`
+  - `HttpOnly`
 
-Whether it's analyzing logs, building SIEM dashboards, or simulating attacks in a lab environment—I'm all about keeping systems secure.
+📦 Requirements
 
-🧠 About Me
+- Python 3.x
+- `requests` library
 
-- 🎓 Background in Telecmmunications Engineering, Information Security, Data Science and Network Administration
-- 🔍 Skilled in Security Monitoring, Incident Response, and Threat Intelligence
-- 💡 Enthusiastic about ethical hacking, malware analysis, and digital forensics
-- ⚙️ Constantly exploring tools like Splunk, Wireshark, Zeek, and ELK Stack
-- 🔒 Committed to learning, sharing, and contributing to the infosec community
+Install the required package using pip:
 
-  🛠️ Technical Skills
-
- 🖥️ Security Tools
-- SIEM: Splunk, ELK, Graylog, QRadar
-- EDR: CrowdStrike, SentinelOne
-- Scanning: Legion, Nmap
-- Forensics: Autopsy, Binwalk, Hashdeep
-- Packet Analysis: Wireshark
-- Scripting: Bash, Python, PowerShell
-  
-  🔐 Core Expertise
-- Network Security Monitoring (NSM)
-- Threat Hunting & IOC Analysis
-- Malware Behavior Analysis
-- Wep Application Analysis
-- Vulnerability Assessment
-- Incident Response Playbooks
-
-
-
-
-
-📫 Connect with Me
-
-- 🧑‍💼 [LinkedIn](www.linkedin.com/in/hanniel-nyemitei-b62266364)
-- 📧 Email: hannielcurry@gmail.com
-
-
-
-“Security is not a product, but a process.” — Bruce Schneier
+```bash
+pip install requests
