@@ -1,6 +1,6 @@
 # 🔒 Cybersecurity Python Projects 🚀
 
-This collection contains ** 12 simple scripts** for educational and security testing purposes. Each script focuses on a specific area in cybersecurity — from web security scanning to password strength and brute-force testing.
+This collection contains ** 3 simple scripts ** for educational and security testing purposes. Each script focuses on a specific area in cybersecurity — from web security scanning to password strength and brute-force testing.
 
 
 ---
